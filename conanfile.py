@@ -8,7 +8,7 @@ class BoostDisjoint_SetsConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_name = "disjoint_sets"
-    requires =  "Boost.Graph/1.64.0@bincrafters/testing"
+    #requires =  "Boost.Graph/1.64.0@bincrafters/testing" # This is a circular dependency , Needs discussion
 
                       #graph14
                       
