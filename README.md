@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Disjoint_Sets](https://github.com/Boostorg/Disjoint_Sets) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Disjoint_Sets%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Disjoint_Sets%3Abincrafters).
 
 ## For Users: Use this package
 
