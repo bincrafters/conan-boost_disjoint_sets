@@ -1,18 +1,33 @@
-from conans import ConanFile
+from conans import ConanFile, tools
 
 
 class BoostDisjoint_SetsConan(ConanFile):
     name = "Boost.Disjoint_Sets"
     version = "1.65.1"
+    requires = "Boost.Level14Group/1.65.1@bincrafters/testing"
+    lib_short_names = ["disjoint_sets"]
+    is_header_only = True
+    is_in_cycle_group = True
+
+    # BEGIN
+
     url = "https://github.com/bincrafters/conan-boost-disjoint_sets"
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
-    requires =  "Boost.Level14Group/1.65.1@bincrafters/testing"
-        
-    #This library is part of one or more cyclic dependency groups within Boost.
-    
-    #All members of cyclic dependency groups must be built under single package per group for Conan.
-    
-    #The combination is performed in the package(s) listed in the requires field.
-    
-    #This package enables simple consumption of this library while abstracting away the cyclic dependency issues. 
+    short_paths = True
+    build_requires = "Boost.Generator/1.65.1@bincrafters/testing"
+
+    def package_id(self):
+        self.info.header_only()
+
+    @property
+    def env(self):
+        try:
+            with tools.pythonpath(super(self.__class__, self)):
+                import boostgenerator  # pylint: disable=F0401
+                boostgenerator.BoostConanFile(self)
+        except:
+            pass
+        return super(self.__class__, self).env
+
+    # END
