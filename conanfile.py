@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostDisjoint_SetsConan(ConanFile):
     name = "boost_disjoint_sets"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-disjoint_sets"
+    url = "https://github.com/bincrafters/conan-boost_disjoint_sets"
     
     lib_short_names = ["disjoint_sets"]
     is_in_cycle_group = True
