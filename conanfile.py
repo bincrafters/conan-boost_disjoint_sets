@@ -8,7 +8,8 @@ class BoostDisjoint_SetsConan(ConanFile):
     name = "boost_disjoint_sets"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_disjoint_sets"
-    
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["disjoint_sets"]
     is_in_cycle_group = True
     is_header_only = True
