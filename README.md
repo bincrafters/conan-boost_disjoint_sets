@@ -1,8 +1,8 @@
 ## Package Status
 
-| Bintray | Windows | Linux | OSX |
-|---------|------------|--------|------|
-|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/boost_disjoint_sets%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/boost_disjoint_sets%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-boost_disjoint_sets?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-boost-disjoint_sets)|[![Build Status](https://travis-ci.org/bincrafters/conan-boost_disjoint_sets.svg)](https://travis-ci.org/bincrafters/conan-boost_disjoint_sets)|[![CircleCI](https://circleci.com/gh/bincrafters/conan-boost_disjoint_sets.svg?style=svg)](https://circleci.com/gh/bincrafters/conan-boost_disjoint_sets)|
+| Bintray | Windows | Linux & macOS | 
+|:--------:|:---------:|:-----------------:|
+|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/boost_disjoint_sets%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/boost_disjoint_sets%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-boost_disjoint_sets?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-boost-disjoint-sets)|[![Build Status](https://travis-ci.org/bincrafters/conan-boost_disjoint_sets.svg)](https://travis-ci.org/bincrafters/conan-boost_disjoint_sets)|
 
 ## Conan.io Information
 
