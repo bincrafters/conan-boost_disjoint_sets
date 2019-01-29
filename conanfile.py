@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostDisjoint_SetsConan(base.BoostBaseConan):
     name = "boost_disjoint_sets"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_disjoint_sets"
     lib_short_names = ["disjoint_sets"]
     header_only_libs = ["disjoint_sets"]
